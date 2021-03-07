@@ -18,3 +18,56 @@ body {
 header img, footer img {
     height: 1.5rem;
 }
+
+footer p {
+    opacity: 0.5;
+}
+
+header, main, footer {
+    max-width: 95rem;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main section {
+    padding-bottom: 5em;
+}
+
+#features {
+    text-align: center;
+}
+
+#features ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#features ul li {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 25rem;
+}
+
+#features img {
+    max-width: 50%;
+}
+
+main img {
+    max-width: 30rem;
+}
