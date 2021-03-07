@@ -14,3 +14,7 @@ body {
     background-color: var(--black);
     color: var(--white);
 }
+
+header img, footer img {
+    height: 1.5rem;
+}
