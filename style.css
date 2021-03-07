@@ -71,3 +71,47 @@ main section {
 main img {
     max-width: 30rem;
 }
+
+@media only screen and (min-width: 30rem) {
+
+    #features ul {
+        flex-direction: row;
+    }
+
+    main, footer {
+        padding: 5rem 2rem;;
+    }
+
+    header img, footer img {
+        height: 2rem;
+        margin-bottom: -0.5rem;
+    }
+
+    footer p {
+        max-width: 40%;
+    }
+    
+    h1 {
+        font-size: 7rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    main section p {
+        font-size: 1.5rem;
+    }
+
+    main section {
+        padding-bottom: 10em;
+    }
+
+    main img {
+        max-width: 20rem;
+    }
+}
