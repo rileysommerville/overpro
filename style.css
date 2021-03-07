@@ -1,0 +1,14 @@
+:root {
+    --black: hsl(220, 5%, 5%);
+    --white: hsl(0, 0%, 95%);
+    --green: hsl(165, 100%, 26%);
+    --light-green: hsl(144, 51%, 62%);
+    --purple: hsl(253, 41%, 56%);
+}
+
+body {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+}
